@@ -1,0 +1,75 @@
+lao Package_name
+
+Package_name.funcion()
+
+akshar A = "K"  
+sankhya Ds = 3 
+dashamlab C = 3.32 
+satya D = Haan
+satya K = Nahi
+
+(ignore) Single Line Comment
+/*
+Multiline comment
+*/
+
+
+(ignore)If=Else Statement
+agar(kuch){
+
+}
+yaFir(kuch aur){
+
+}
+nahiToh{
+
+}
+
+(ignore)Error Handling
+
+koshish {
+    sankhya n = 10 / 0 
+} 
+galti (ZeroDivisionError e) {
+    shabd msg = "Bhai, zero se divide nahi kar sakte!" 
+} 
+aakhiri {
+    ॥ Ye block hamesha chalega (cleanup code)
+}
+
+(ignore) Loops
+
+(ignore) Variable driven
+sankhya R = 3 
+
+jabtak(R<=3){
+    Kuch kaam kro
+    R+=sankhya
+}
+
+(ignore)Do while
+kro{
+    kuch kaam
+}
+check(R<=3)
+
+(ignore)For
+keLiye(sankhya r=0,r<=3,r+=sankhya)(ignore)(constant)
+{
+    kuch kaam
+}
+
+(ignore)Input Output
+dikhao("Aapka naam kya hai?") 
+shabd user_naam = pucho() 
+dikhao("Namaste " + user_naam) 
+
+(ignore)Funcion named Aaram
+kaam Aaram(shabd c){
+    (ignore) Return
+    vaapas c
+}
+
+(ignore) break means ruko and continue means chalo
+(ignore) void means shunya
+

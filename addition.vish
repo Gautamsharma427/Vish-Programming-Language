@@ -1,0 +1,45 @@
+lao Maths
+
+kaam sankhya Add(sankhya a, sankhya b){
+    vaapas a + b
+}
+
+shabd user = pucho()
+dikhao("Namaste " + user)
+
+sankhya x = 10
+sankhya y = 20
+sankhya result = Add(x, y)
+
+agar(result >= 30 && result != 100){
+    dikhao("Addition Successful")
+}
+yaFir(result == 100){
+    dikhao("Century!")
+}
+nahiToh{
+    dikhao("Unexpected Result")
+}
+
+sankhya i = 0
+
+jabtak(i < 5){
+    dikhao(i)
+    i += 1
+}
+
+kro{
+    dikhao("Runs at least once")
+    i -= 1
+}
+check(i > 0)
+
+koshish{
+    sankhya n = 10 / 0
+}
+galti(ZeroDivisionError e){
+    dikhao("Cannot divide by zero")
+}
+aakhiri{
+    dikhao("Program Finished")
+}
